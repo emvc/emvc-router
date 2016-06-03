@@ -1,8 +1,9 @@
 {
-  "name": "actionrouter",
+  "name": "emvc-router",
   "version": "0.1.0",
-  "description": "RESTful MVC router that dispatches to a controller and action.",
+  "description": "RESTful MVC router that dispatches to a controller and action",
   "keywords": [
+    "emvc",
     "locomotive",
     "express",
     "connect",
@@ -11,16 +12,16 @@
     "model2"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Nicholas Penree",
+    "email": "nick@penree.com",
+    "url": "http://www.penree.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/node-actionrouter.git"
+    "url": "git://github.com/emvc/emvc-router.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/node-actionrouter/issues"
+    "url": "http://github.com/emvc/emvc-router/issues"
   },
   "licenses": [
     {
