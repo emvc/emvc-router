@@ -1,7 +1,7 @@
 # emvc-router
 
 [![Build](https://travis-ci.org/emvc/emvc-router.png)](https://travis-ci.org/emvc/emvc-router)
-[![Coverage](https://coveralls.io/repos/emvc/emvc-router/badge.png)](https://coveralls.io/r/emvc/emvc-router)
+[![Coverage](https://coveralls.io/repos/github/emvc/emvc-router/badge.svg?branch=master)](https://coveralls.io/github/emvc/emvc-router?branch=master)
 [![Quality](https://codeclimate.com/github/emvc/emvc-router.png)](https://codeclimate.com/github/emvc/emvc-router)
 [![Dependencies](https://david-dm.org/emvc/emvc-router.png)](https://david-dm.org/emvc/emvc-router)
 
