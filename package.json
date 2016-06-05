@@ -36,13 +36,21 @@
     "utils-flatten": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
   },
   "engines": {
     "node": ">= 0.4.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js",
+    "lint": "./node_modules/.bin/jshint lib/*.js",
+    "lint-tests": "./node_modules/.bin/jshint test/*.test.js",
+    "coverage": "DEBUG= ./node_modules/.bin/istanbul cover --dir ./reports/coverage _mocha -- --require ./test/bootstrap/node test/*.test.js test/**/*.test.js",
+    "view-coverage": "open ./reports/coverage/lcov-report/index.html",
+    "send-coverage": "cat ./reports/coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "clean": "rm -rf build; rm -rf reports"
   }
 }
